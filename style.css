@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url("./images/notes-6399119_1920.jpg"); /* Replace with your image path */
+    background-size: cover; /* Ensures image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image tiling */
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #28a745; /* Vibrant green */
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #de0606;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #120101; /* New white color for input text */
+  }
+  
+  button {
+    background-color: #c02942; /* Vibrant red */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #971d31; /* Darker red on hover */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Added darker border for better separation */
+    border-color: #777;
+  }
+  
+  .task-item {
+    font-size: 1rem;
+    color: #fff;; /* New white color for task text */
+  }
+  
+  .edit-button,
+  .delete-button {
+    background-color: #c02942 ;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-button:hover {
+    color: #28a745; /* Green on hover */
+  }
+  
+  .delete-button:hover {
+    color: #c02942; /* Red on hover */
+  }
+  
